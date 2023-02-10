@@ -2,6 +2,8 @@
 
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode-remote-try-php)
 
+[![Version: 1.0]
+
 This ** PHP MySQL Containers for ICI IT Students ** is a running container with a well-defined tool/runtime stack and its prerequisites, especially PHP and MySQL. PHP library is installed with the latest version while MySQL is currently on testing.
 
 > **Note:** If you already have a Codespace created already, you can jump to the [Things to try](#things-to-try) section.
