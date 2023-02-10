@@ -2,9 +2,7 @@
 
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode-remote-try-php)
 
-[![Version: 1.0]]
-
-This ** PHP MySQL Containers for ICI IT Students ** is a running container with a well-defined tool/runtime stack and its prerequisites, especially PHP and MySQL. PHP library is installed with the latest version while MySQL is currently on testing.
+This **PHP MySQL Containers for ICI IT Students** is a running container with a well-defined tool/runtime stack and its prerequisites, especially PHP and MySQL. PHP library is installed with the latest version while MySQL is currently on testing.
 
 > **Note:** If you already have a Codespace created already, you can jump to the [Things to try](#things-to-try) section.
 
@@ -18,8 +16,8 @@ Follow these steps to open this sample in a Codespace:
 4. The **repository name** can be any name, just make sure that the name relates to your project or performance task.
 5. Input the repository description thats best relate to your project or performance tasks.
 6. You can set permissions to your repository, if you want to keep it on your own then select Private.
-7. Once you filled in all information required. Click ** Create repository from template **
-8. Once done, you can proceed opening your repository without affecting the template repository by clicking ** Code ** then select ** Codespaces ** and lastly ** Create codespace on main ** to get started.
+7. Once you filled in all information required. Click **Create repository from template**
+8. Once done, you can proceed opening your repository without affecting the template repository by clicking **Code** then select **Codespaces** and lastly **Create codespace on main** to get started.
 
 ## Things to try
 
@@ -39,6 +37,7 @@ Some things to try:
 1. For Grade 12 students only:
    - Since most of the Performance Tasks needs a MySQL database connection, you will be accessing them externally.
    - To request a MySQL account, please email jerick.almeda@ici.edu.ph, make sure that you're indicating your block and reason.
+   - Instructions will be sent thru your ICI-email address.
  
 
 ## Contributing
