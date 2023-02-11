@@ -4,6 +4,8 @@
 
 This **PHP MySQL Containers for ICI IT Students** is a running container with a well-defined tool/runtime stack and its prerequisites, especially PHP and MySQL. PHP library is installed with the latest version while MySQL is currently on testing.
 
+YouTube tutorial: https://www.youtube.com/watch?v=aa9l65PK3RE
+
 > **Note:** If you already have a Codespace created already, you can jump to the [Things to try](#things-to-try) section.
 
 ## Setting up the development container for your project
