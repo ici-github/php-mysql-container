@@ -30,11 +30,7 @@
 		}
 	},
 
-	"features": {
-		"ghcr.io/devcontainers-contrib/features/mysql-homebrew:1": {
-			"version":"latest"
-		}
-	}
+	"features": {}
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "sudo chmod a+x \"$(pwd)\" && sudo rm -rf /var/www/html && sudo ln -s \"$(pwd)\" /var/www/html"
 
