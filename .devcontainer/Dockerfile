@@ -15,7 +15,7 @@
 # # Expose port 80 for web server if needed
 # EXPOSE 8000
 
-FROM mcr.microsoft.com/devcontainers/php:1-${templateOption:imageVariant}
+FROM mcr.microsoft.com/devcontainers/php:0-8.2
 
 # Install MariaDB client
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \

@@ -49,7 +49,7 @@
 	"name": "PHP & MariaDB",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"workspaceFolder": "/workspaces/php-mysql-container",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
