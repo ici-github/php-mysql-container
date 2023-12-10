@@ -31,7 +31,7 @@ Follow these steps to open this sample in a Codespace:
 ## Things to try
 
 Once you have the working codespace, you'll be able to work with it like you would locally.
-Upload your PHP and other document files inside the htdocs directory
+Upload your PHP and other document files inside the **htdocs** directory
 
 Some things to try:
 
