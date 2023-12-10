@@ -52,7 +52,7 @@ Some things to try:
    - Password: mariadb
    - Database Name: mariadb
    - Database Server: 127.0.0.1
-   - 
+     
 ## Contributing
 
 This project welcomes contributions and suggestions. Most contributions require you to agree to a
