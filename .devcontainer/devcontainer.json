@@ -14,7 +14,9 @@
 		"vscode": {
 			"settings": {},
 			"extensions": [
-				"streetsidesoftware.code-spell-checker"
+				"streetsidesoftware.code-spell-checker",
+				"ms-vsliveshare.vsliveshare-pack",
+				"kokororin.vscode-phpfmt"
 			]
 		}
 	},
@@ -28,8 +30,8 @@
 			"label": "PHP is Running",
 			"onAutoForward": "notify"
 		}
-	}
-	//"postCreateCommand": "curl -L https://gist.githubusercontent.com/jerickalmeda/81a9fe4b569a7d83494c80c25e6272d4/raw/a9b0551ceb88f659daf2432df932c0823386c830/install_mysql_extension_forcodespace.sh | bash && php -S 0.0.0.0:8000",
+	},
+	"postCreateCommand": "php -S 0.0.0.0:8000",
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "sudo chmod a+x \"$(pwd)\" && sudo rm -rf /var/www/html && sudo ln -s \"$(pwd)\" /var/www/html"
 
