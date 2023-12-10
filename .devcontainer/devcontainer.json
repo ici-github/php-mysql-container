@@ -1,37 +1,38 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/php
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
+// https://github.com/microsoft/vscode-dev-containers/tree/master/containers/php-7
 {
-	"name": "PHP",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/php:0-8.2",
+	"name": "PHP 7",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "php",
+    // Use 'settings' to set *default* container specific settings.json values on container create.
+	// You can edit these settings after create using File > Preferences > Settings > Remote.
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "phpSniffer.executablesFolder": "./vendor/bin/",
+        "phpSniffer.run": "onSave"
+    },
 
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features":{}
-	// Configure tool-specific properties.
-	"customizations": {
-		// Configure properties specific to VS Code.
-		"vscode": {
-			"settings": {},
-			"extensions": [
-				"streetsidesoftware.code-spell-checker"
-			]
-		}
-	},
+	// Uncomment the next line if you want to publish any ports.
+	"forwardPorts": [8000],
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [8000],
+	// Uncomment the next line to run commands after the container is created.
+	"postCreateCommand": "",
 
-	// Use 'portsAttributes' to set default properties for specific forwarded ports. More info: https://code.visualstudio.com/docs/remote/devcontainerjson-reference.
-	"portsAttributes": {
-		"8000": {
-			"label": "PHP is Running",
-			"onAutoForward": "notify"
-		}
-	},
-	"postCreateCommand": "php -S 0.0.0.0:8000",
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "sudo chmod a+x \"$(pwd)\" && sudo rm -rf /var/www/html && sudo ln -s \"$(pwd)\" /var/www/html"
+	// Uncomment the next line to use a non-root user. On Linux, this will prevent
+	// new files getting created as root, but you may need to update the USER_UID
+	// and USER_GID in .devcontainer/Dockerfile to match your user if not 1000.
+	"runArgs": [
+					"-u", "vscode" ,
+				 	"-v", "${env:HOME}${env:USERPROFILE}/.ssh:/home/vscode/.ssh"
+			],
 
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+
+	// Add the IDs of extensions you want installed when the container is created in the array below.
+	"extensions": [
+                     "bmewburn.vscode-intelephense-client",
+                     "MehediDracula.php-namespace-resolver",
+                     "MS-vsliveshare.vsliveshare-pack",
+                     "EditorConfig.EditorConfig",
+                     "wongjn.php-sniffer"
+	]
 }
