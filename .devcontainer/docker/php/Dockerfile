@@ -27,6 +27,7 @@ RUN apt-get update && apt-get install -y \
 
 # install mysqli
 RUN docker-php-ext-install -j$(nproc) mysqli
+RUN docker-php-ext-enable mysqli
 
 ARG XDEBUG_REMOTE_ENABLE=1
 ARG XDEBUG_REMOTE_AUTOSTART=1
