@@ -31,24 +31,28 @@ Follow these steps to open this sample in a Codespace:
 ## Things to try
 
 Once you have the working codespace, you'll be able to work with it like you would locally.
+Upload your PHP and other document files inside the **htdocs** directory
 
 Some things to try:
 
 1. **DON'TS:**
    - DO NOT DELETE `index.php` file, this will list your files and directories when PHP is started.
    - It is recommended to create Folders based on Performance Task number (G11) and abbreviated system name for Grade 12.
-   - DO NOT DELETE OR MODIFYTHE FILES AND FOLDERS THAT ARE BUILT FROM THE TEMPLATE IT WOULD CAUSE A CRASH ON YOUR CONTAINERS.
+   - DO NOT DELETE OR MODIFY THE FILES AND FOLDERS THAT ARE BUILT FROM THE TEMPLATE IT WOULD CAUSE A CRASH ON YOUR CONTAINERS.
 
 1. **Running a server:**
    - From the terminal, run `php -S 0.0.0.0:8000`
    - Click "Open in Browser" in the notification that appears to access the web app on this new port.
-   
-1. For Grade 12 students only:
-   - Since most of the Performance Tasks needs a MySQL database connection, you will be accessing them externally.
-   - To request a MySQL account, please email jerick.almeda@ici.edu.ph, make sure that you're indicating your block and reason.
-   - Instructions will be sent thru your ICI-email address.
- 
-
+1. **Running a server with database especially grade 12:**
+   - To access the database, go to Ports tab (if you cannot see the Ports panel, click the **three-horizontal-bar** icon, click **View** then select **Terminal**
+   - Once the Panel is shown, click on **Ports** tab, and make sure that port 3306 is **GREEN** status, that indicates that the database is running.
+   - On the same panel, if you see **PHP is Running (8000)** that indicates the link is working, next is to click the **Globe** icon, then add **db** on the link, the link should be like this: **....8000.app.github.dev/db**, you should be able to see Adminer (an alternative option for phpmyadmin)
+   - For you to login to the database use the following login credentials:
+   - Username: mariadb
+   - Password: mariadb
+   - Database Name: mariadb
+   - Database Server: 127.0.0.1
+     
 ## Contributing
 
 This project welcomes contributions and suggestions. Most contributions require you to agree to a
