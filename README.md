@@ -11,11 +11,12 @@ YouTube tutorial: https://www.youtube.com/watch?v=aa9l65PK3RE
 ## Setting up the development container for your project
 ### GitHub Codespaces and GitHub Student Developer Pack
 1. To use GitHUB Codespaces, make sure you already registered your ICI-email address to GitHub.
-2. Visit https://education.github.com/pack to activate, follow the instructions from GitHub. 
-3. Verification process is automatic but GitHub Education team needs evidence that you are an officially enrolled student of Iligan Computer Institute.
-4. (optional) To send your Student ID as part of the verification, follow this instructions, take pictures on both front and back then edit them to be as one picture and attach it to the submission form.
-5. (optional) To send your COR / Certificate of Registration as evidence for verification, take a photo of your COR then upload it to the submission form.
-6. Depends on the selected document for verification, expect an email coming from GitHub Education Team with the message, "Welcome to Github Global Campus", that indicates that your Student Developer Pack has been activated an able to use GitHub Codespaces at no charge.
+2. Visit https://education.github.com/pack to activate, follow the instructions from GitHub.
+3. Allow location tracking from browser prompt as this is needed for GitHub Admins to activate your account.
+4. Verification process is automatic but GitHub Education team needs evidence that you are an officially enrolled student of Iligan Computer Institute.
+5. (optional) To send your Student ID as part of the verification, follow this instructions, take pictures on both front and back then edit them to be as one picture and attach it to the submission form.
+6. (optional) To send your COR / Certificate of Registration as evidence for verification, take a photo of your COR then upload it to the submission form.
+7. Depends on the selected document for verification, expect an email coming from GitHub Education Team with the message, "Welcome to Github Global Campus", that indicates that your Student Developer Pack has been activated an able to use GitHub Codespaces at no charge.
 
 ### GitHub Codespaces
 Follow these steps to open this sample in a Codespace:
