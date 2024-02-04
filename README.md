@@ -37,7 +37,7 @@ Some things to try:
 
 1. **DON'TS:**
    - DO NOT DELETE `index.php` file, this will list your files and directories when PHP is started.
-   - It is recommended to create Folders based on Performance Task number (G11) and abbreviated system name for Grade 12.
+   - Upload your files in the `htdocs` directory to run.
    - DO NOT DELETE OR MODIFY THE FILES AND FOLDERS THAT ARE BUILT FROM THE TEMPLATE IT WOULD CAUSE A CRASH ON YOUR CONTAINERS.
 
 1. **Running a server:**
