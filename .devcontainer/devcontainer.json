@@ -32,6 +32,9 @@
 		}
 	},
 	"postCreateCommand": "php -S 0.0.0.0:8000",
+	"features": {
+		"ghcr.io/wxw-matt/devcontainer-features/command_runner:0": {}
+	},
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "sudo chmod a+x \"$(pwd)\" && sudo rm -rf /var/www/html && sudo ln -s \"$(pwd)\" /var/www/html"
 
